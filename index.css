@@ -138,6 +138,142 @@ nav {
     margin: 4vh;
     height: 92vh;
     overflow-x: scroll;
+    text-align: center;
+}
+
+nav h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+nav .one {
+    border: 2px solid #ededed;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px
+}
+
+nav .two {
+    border: 2px solid #ededed;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px
+}
+
+nav .three {
+    border: 2px solid #ededed;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px
+}
+
+nav .four {
+    border: 2px solid #ededed;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px
+}
+
+nav .five {
+    border: 2px solid #ededed;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px
+}
+
+nav .six {
+    border: 2px solid #ededed;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px
+}
+
+nav #number1 {
+    border: 2px solid #ededed;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px
+}
+
+nav textarea {
+    width: 90%;
+}
+
+nav .one label {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav #number1 label {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .two label {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .three label {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .four label {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .five label {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .six label {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav input {
+    margin-top: 5px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+nav textarea {
+    margin-top: 5px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+nav button {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #ededed;
+    outline: none;
+    border: .8px solid gray;
+    border-radius: 7px;
 }
 
 
@@ -168,4 +304,44 @@ aside ul li:hover {
 
 aside ul li a:hover {
     color: orangered;
+}
+
+
+/* -----------------MAX-Width----------------- */
+
+@media(max-width:900px) {
+    main {
+        width: 63%;
+    }
+}
+
+@media(max-width:800px) {
+    main {
+        width: 61%;
+    }
+}
+
+@media(max-width:650px) {
+    main {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        margin-left: 65px;
+        overflow: none;
+    }
+    scroll-behavior::part {
+        height: (100, 100, 100);
+    }
+    nav {
+        float: none;
+        margin-left: 65px;
+        width: 80%;
+    }
+    #content {
+        height: 100vh;
+        padding: 0px;
+        margin: 0px;
+        overflow-y: scroll;
+    }
 }
